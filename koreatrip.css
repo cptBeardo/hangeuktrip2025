@@ -8,19 +8,33 @@ h1 {
 }
 
 #outbound {
-    background-image: url("./photos/incheon_airport_photo.png");
-    background-position: center;
-    background-size: cover;
-    height: 300px;
-    width: 1500px;
+    background-image: url("./photos/incheon_airport_photo.png");  
 }
 
-#outbound_caption {
+#seoul_1 {
+    background-image: url("");
+}
+
+#busan {
+    background-image: url("");
+}
+
+#outbound,
+#seoul_1,
+#busan {
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 1250px;
+}
+
+.daily_caption {
     text-align: left;
     display: block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 30px;
     font-style: oblique;
+    font-weight: bold;
     margin-left: 20px;
     padding: 10px;
     position: relative;
