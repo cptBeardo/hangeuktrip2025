@@ -6,3 +6,23 @@ h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
 }
+
+#outbound {
+    background-image: url("../photos/incheon_airport_photo");
+    background-position: center;
+    height: 300px;
+}
+
+#outbound_caption {
+    text-align: left;
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    top: 80%;
+    width: 60%;
+    color: purple;
+}
