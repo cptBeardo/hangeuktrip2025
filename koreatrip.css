@@ -8,21 +8,24 @@ h1 {
 }
 
 #outbound {
-    background-image: url("../photos/incheon_airport_photo");
+    background-image: url("./photos/incheon_airport_photo.png");
     background-position: center;
+    background-size: cover;
     height: 300px;
+    width: 1500px;
 }
 
 #outbound_caption {
     text-align: left;
     display: block;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 14px;
-    font-style: italic;
+    font-size: 30px;
+    font-style: oblique;
     margin-left: 20px;
     padding: 10px;
     position: relative;
-    top: 80%;
+    top: 50%;
     width: 60%;
-    color: purple;
+    color: rgb(0, 255, 255);
+    text-shadow: 2px 2px purple;
 }
