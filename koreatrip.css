@@ -11,27 +11,54 @@ h1 {
     text-shadow: 3px 3px purple;
 }
 
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-shadow: 2px 2px purple;
+}
+
+h3 {
+    font-style: oblique;
+    text-shadow: 1px 1px purple;
+}
+
+h6 {
+    color: red;
+}
+
 #outbound {
     background-image: url("./photos/incheon_airport_photo.png");
     opacity: 0.60; 
 }
 
 #seoul_1 {
-    background-image: url("");
+    background-image: url("./photos/psy_baseball.png");
     opacity: 0.60;
 }
 
 #busan {
-    background-image: url("");
+    background-image: url("./photos/busan_train.png");
+    opacity: 0.60;
+}
+
+#road_trip {
+    background-image: url("./photos/road_trip.png");
+    opacity: 0.60;
+}
+
+#seoul_2 {
+    background-image: url("./photos/seoul_round_2.png");
     opacity: 0.60;
 }
 
 #outbound,
 #seoul_1,
-#busan {
+#busan,
+#road_trip,
+#seoul_2 {
     background-position: center;
     background-size: cover;
-    height: 200px;
+    height: 150px;
     width: 1250px;
 }
 
