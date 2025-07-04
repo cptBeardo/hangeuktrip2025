@@ -2,18 +2,28 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:rgb(0, 255, 255);
     background-color: black;
+    box-sizing: border-box;
+}
+
+section {
+    border: 2px solid rgb(0, 255, 255);
+    width: 1275px;
+    padding: 10px;
+    margin: 10px 30px;
 }
 
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     text-shadow: 3px 3px purple;
+    margin-left: 30px;
 }
 
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     text-shadow: 2px 2px purple;
+    margin-left: 30px;
 }
 
 h3 {
@@ -76,4 +86,15 @@ h6 {
     color: rgb(0, 255, 255);
     text-shadow: 2px 2px purple;
     background-color: transparent;
+}
+
+.content {
+    height: 200px;
+    width: 1250px;
+    margin-top: 5px;
+    padding-top: 2px;
+    overflow-y: scroll;
+    scrollbar-width: thin;
+    scroll-padding-top: 2px;
+    scrollbar-color: red;
 }
